@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKFCM Tournament Bracket</title>
+  <style>
+    body {
+      background-color: #1a1d20;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      font-style: italic;
+      border-bottom: 2px solid #ff6600;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .bracket-container {
+      display: flex;
+      gap: 30px;
+      overflow-x: auto;
+      padding: 20px 0;
+    }
+    .round {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-width: 220px;
+    }
+    .match {
+      background: #2b3137;
+      border-radius: 4px;
+      margin: 10px 0;
+      border: 1px solid #3e464f;
+      overflow: hidden;
+    }
+    .team {
+      padding: 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #3e464f;
+      font-size: 14px;
+    }
+    .team:last-child {
+      border-bottom: none;
+    }
+    .seed {
+      color: #8b949e;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SKFCM TOURNAMENT BRACKET</h1>
+
+  <div class="bracket-container">
+    <div class="round">
+      <h3>Round 1</h3>
+      <div class="match">
+        <div class="team"><span><span class="seed">#1</span> OutLaws1</span></div>
+        <div class="team"><span><span class="seed">#8</span> The Kartoons</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span><span class="seed">#4</span> Dasala Mosa</span></div>
+        <div class="team"><span><span class="seed">#5</span> Team Nightmare</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span><span class="seed">#2</span> The Knights</span></div>
+        <div class="team"><span><span class="seed">#7</span> Team OG</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span><span class="seed">#3</span> GAAND PELE MAFIA</span></div>
+        <div class="team"><span><span class="seed">#6</span> HW (H0tWheelz)</span></div>
+      </div>
+    </div>
+
+    <div class="round">
+      <h3>Quarterfinals</h3>
+      <div class="match">
+        <div class="team"><span>TBD</span></div>
+        <div class="team"><span>TBD</span></div>
+      </div>
+      <div class="match">
+        <div class="team"><span>TBD</span></div>
+        <div class="team"><span>TBD</span></div>
+      </div>
+    </div>
+
+    <div class="round">
+      <h3>Grand Finals</h3>
+      <div class="match">
+        <div class="team"><span>Winner Upper</span></div>
+        <div class="team"><span>Winner Lower</span></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
